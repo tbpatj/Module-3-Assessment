@@ -103,6 +103,27 @@ button.sad-dev-story{
 	box-shadow: 0 9px #666;
 	margin: 10px;
 }
+#small-img-container{
+	position: relative;
+	width: 0;
+	height: 0;
+	left:0px;
+	
+}
+.classy-duck{
+	transition: 1s;
+	position: absolute;
+	display: inline-block;
+	transform: translateX(0px);
+	left: 40vw;
+	bottom: -70px;
+	z-index: -1;
+	
+}
+.hidden-duck {
+	position: absolute;
+	transform: translateX(400px);
+}
 button.sad-dev-story:hover{
 	background-color: lightyellow;
 	color:black;
