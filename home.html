@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
+		<p>Hello user. Welcome to this webpage. Do you like rubber ducks?
+			This website supplies an image of a rubber duck,
+			we don't have many other rubber ducks,
+			but this one is a classic,
+			you won't find this kind of a duck anywhere else.
+			so allow your eyes to soak in the magesty of this amazing duck,
+			and just relax.
+		</p>
+
+		<img id="duck" src="/Images/rubberDuck.jpg">
+		<p>Classic Duck Compliments to our user:</p>
+		<ul>
+			<li>"You sir look Phenomenal"</li>
+			<li>"That outfit really fluffs my feathers! (in a good way)"</li>
+			<li>"Quack Quack ;)"</li>
+		</ul>
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			How did you hear about us:
+			<br>
+			<input type="checkbox" name="heard-from" class="heard-checkbox" id="google-referal" value="google">
+			<label for="google-referal" class="label-for-checkbox">Google</label>
+			<br>
+			<input type="checkbox" name="heard-from" class="heard-checkbox" id="friend-referal" value="friend">
+			<label for="friend-referal" class="label-for-checkbox">Friend</label>
+			<br>
+			<input type="checkbox" name="heard-from" class="heard-checkbox" id="ad-referal" value="ad">
+			<label for="ad-referal" class="label-for-checkbox">Ad</label>
+			<br>
+			<input type="checkbox" name="heard-from" class="heard-checkbox" id="other-referal" value="other">
+			<label for="other-referal" class="label-for-checkbox">Other</label>
+
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>

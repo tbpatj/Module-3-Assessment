@@ -1,0 +1,94 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.heard-checkbox {
+	display: inline;
+}
+#duck-container{
+	height: 450px;
+}
+#presenting-duck {
+	display: block;
+	position:relative;
+	top:100px;
+	left: -30px;
+	transform: scale(2);
+	animation-name: duck;
+	animation-duration: 5s;
+}
+@keyframes duck {
+	from {left: -100vw;}
+	to {left: -30px;}
+}
+h6{
+	display: inline-block;
+	text-align: center;
+}
+
+#dev-container{
+	display: flex;
+	justify-content: center;
+}
+
+#dev-image{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	position: relative;
+	left:10px;
+	top: 22px;
+	
+	/* transform: scale(0.1); */
+	border-radius: 50%;
+}
+p.sad-dev-story{
+	text-align: center;
+	font-size: 8px;
+}
+li.sad-dev-story{
+	font-size: 8px;
+}
+form.sad-dev-story{
+	display: flex;
+	justify-content: center;
+}
+button.sad-dev-story{
+	font-size: 5px;
+	background-color: darkcyan;
+	border-radius: 20px;
+}
