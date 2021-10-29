@@ -89,6 +89,27 @@ form.sad-dev-story{
 }
 button.sad-dev-story{
 	font-size: 5px;
-	background-color: darkcyan;
+	background-color: yellow;
+	padding: 100px 20px;
+	width:100px;
 	border-radius: 20px;
+  	color: black;
+	border: 2px solid rgb(123, 123, 0);
+  	/* padding: 15px 32px; */
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	transition: 0.1s;
+	box-shadow: 0 9px #666;
+	margin: 10px;
+}
+button.sad-dev-story:hover{
+	background-color: lightyellow;
+	color:black;
+	box-shadow: 0 7px #666;
+	transform: translateY(2px);
+}
+button.sad-dev-story:active{
+	box-shadow: 0 3px #666;
+	transform: translateY(7px);
 }
